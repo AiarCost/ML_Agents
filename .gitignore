@@ -9,6 +9,7 @@ ML_Agents/[Oo]bj/
 #[Bb]uilds/
 ML_Agents/[Ll]ogs/
 ML_Agents/[Mm]emoryCaptures/
+ML_Agents/venv/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
