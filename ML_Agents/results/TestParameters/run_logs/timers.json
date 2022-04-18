@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650312949",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Arian\\OneDrive\\Desktop\\Projects\\GitHub\\ML_Agents\\ML_Agents\\venv\\Scripts\\mlagents-learn config/moveToGoal.yaml --run-id=TestParameters",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1650313011"
+    },
+    "total": 62.132988999999995,
+    "count": 1,
+    "self": 0.02400679999999511,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14225179999999993,
+            "count": 1,
+            "self": 0.14225179999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 61.9667304,
+            "count": 1,
+            "self": 0.00023200000000400678,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.9664248,
+                    "count": 1,
+                    "self": 61.9664248
+                },
+                "TrainerController._save_models": {
+                    "total": 7.360000000034006e-05,
+                    "count": 1,
+                    "self": 7.360000000034006e-05
+                }
+            }
+        }
+    }
+}
